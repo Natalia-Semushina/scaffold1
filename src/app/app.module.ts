@@ -5,17 +5,25 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSliderModule} from '@angular/material/slider';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatInputModule} from '@angular/material/input';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {FormsModule} from '@angular/forms';
+import { PassComponent } from './pass/pass.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PassComponent
   ],
   imports: [
     BrowserModule,
     NoopAnimationsModule,
     MatSliderModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatInputModule,
+    MatCheckboxModule,
+    FormsModule
 
 
   ],

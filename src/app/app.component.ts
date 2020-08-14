@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import {PassComponent} from './pass/pass.component'
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,5 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'scaffold1';
+  password: string;
 }
