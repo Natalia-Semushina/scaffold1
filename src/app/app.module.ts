@@ -9,12 +9,14 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {FormsModule} from '@angular/forms';
 import { PassComponent } from './pass/pass.component';
+import { NgxHideDirective } from './ngx-hide.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PassComponent
+    PassComponent,
+    NgxHideDirective
   ],
   imports: [
     BrowserModule,

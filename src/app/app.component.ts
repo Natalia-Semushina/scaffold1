@@ -11,4 +11,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'scaffold1';
   password: string;
+  appNgxHide: boolean;
+
+
+
+
+
 }

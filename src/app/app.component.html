@@ -234,7 +234,11 @@
     <mat-checkbox [checked]="true" labelPosition="before" color="primary"> Hide password </mat-checkbox>
   </div>-->
   <app-pass></app-pass>
-
+  <p appNgxHide> Test element </p>
+  <mat-checkbox [(ngModel)]="appNgxHide" >    Hide test element  </mat-checkbox>
+<!--  <mat-checkbox [(ngModel)]="ngxHide"  labelPosition="before" color="primary">-->
+<!--    Hide test element-->
+<!--  </mat-checkbox>-->
   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
   <svg id="clouds" alt="Gray Clouds Background" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
