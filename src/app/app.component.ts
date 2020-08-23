@@ -12,6 +12,7 @@ export class AppComponent {
   title = 'scaffold1';
   password: string;
   appNgxHide: boolean;
+  appStructuralNgxHide: boolean = false;
 
 
 
